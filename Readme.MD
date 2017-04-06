@@ -12,10 +12,14 @@ Event based slug generator. No need any framework or library. Written in Vanilla
 Import Slugit library and use like this
 
 **Params:**
-  event: focusout, click, keyup, keydown, keypress
-  timeout: default (0)
-  el: Typed input field
-  target: When you finished typing, formatted output assign to this element
+
+    event: focusout, click, keyup, keydown, keypress
+    
+    timeout: default (0)
+    
+    el: Typed input field
+    
+    target: When you finished typing, formatted output assign to this element
 
 ```js
 var slug = new Slugit()
